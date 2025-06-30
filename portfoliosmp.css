@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right, #000e19, #02567b);
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(101, 187, 190);
+    font-family: "Iceberg", sans-serif;
+    
+    font-size: 2.5em;
+    left: calc(2% - 10px);
+    position: relative;
+    width: 100vw;
+    padding: 10px 0;
+    
+    
+}
+
+h2 {
+    color: rgb(162, 215, 215);
+    font-family: "Cinzel", sans-serif;
+    font-style: normal;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: rgb(162, 215, 215);
+    font-family: "Calibri", sans-serif;
+    font-style: normal;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 130px;
+    height: 135px;
+    
+
+    position: center;
+    
+    
+}
+
+p {
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    left: calc(7% - 10px);
+    position: relative;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+
+.card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
